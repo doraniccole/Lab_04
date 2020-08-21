@@ -1,13 +1,21 @@
 function sayGreetingsCoffeeDrinker() {
-   var coffee = prompt('Greetings Coffee Drinker!');
+   var name = prompt('Greetings Coffee Drinker! What is your name? ');
+   alert('Nice to meet you, ' + name + '.');
 }
 sayGreetingsCoffeeDrinker();
 
-function sayWhichcoffeewouldyouliketotry() {
-    var coffee = prompt('Which coffee would you like to try?');
-    alert('fantastic choice:  ' + coffee + '!');
+
+function sayKindOfCoffee() {
+    var coffee = prompt('What kind of coffee do you like?');
+    alert(coffee + 'is a fantastic choice!');
 }
-sayWhichcoffeewouldyouliketotry();
+sayKindOfCoffee();
+
+function 
+
+
+
+
 
 function numberGuessingGame() {
     var correctAnswer = 37;
