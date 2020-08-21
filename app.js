@@ -22,7 +22,7 @@ function oldEnough() {
     }
 }
 
-oldEnough();
+oldEnough(); 
 
 // if under 15 wait a few years
 // if over 65 try decaf
