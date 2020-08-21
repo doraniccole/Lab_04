@@ -12,7 +12,7 @@ function sayKindOfCoffee() {
 sayKindOfCoffee();
 
 function oldEnough() {
-    var age = prompt("How old are you?"); 
+    var age =  parseInt(prompt("How old are you?")); 
     if (age < 15) {
         alert('Wait a few years to enjoy coffee.');
     } else if (age > 65) {
