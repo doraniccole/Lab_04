@@ -12,10 +12,10 @@ h1 {
     text-align: center;
     border: solid 7px rgb(124, 141, 138);
     background-color:#6b2f2fb6;
-    font-size: 100px;
+    font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     font-size-adjust:
-    padding: 20px 30px 30px 20px;
+    padding: 40px 50px 50px 40px;
 }
 
 nav > ul > li{
@@ -23,13 +23,13 @@ nav > ul > li{
     border: solid black 2px;
     display: inline;
     margin: 30px;
-    padding: 20px;
-    font-size: 40px;
+    padding: 015px;
+    font-size: 28px;
     background-color: rgb(185, 146, 185)
 }
 
 img {
-    width: 450px;
+    width: 350px;
     padding: 20px 20px;
     border: solid rgb(124, 141, 138); 150px
     background-color: rgb(124, 141, 138);
