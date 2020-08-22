@@ -11,6 +11,18 @@ function sayKindOfCoffee() {
 }
 sayKindOfCoffee();
 
+function askQuestion(){
+    var question = prompt('Would you like to see our menu?');
+    if(question === 'yes'){
+        menuOptions();
+   } else if(question ==='no') {
+       alert('Thank you. Cheers!');
+   } else {
+       alert('your answer was other than yes or no');
+   }
+}
+askQuestion();
+
 function oldEnough() {
     var age =  parseInt(prompt("How old are you?")); 
     if (age < 15) {
@@ -19,15 +31,21 @@ function oldEnough() {
         alert('Try decaf.');
     } else if (age >= 15 && age <= 65) {
         alert('Drink responsibly and enjoy!');
+    
     }
-}
-
-oldEnough(); 
+} 
 
 // if under 15 wait a few years
 // if over 65 try decaf
 // otherwise drink responsibly
 
+function menuOptions() {
+var coffee = ['Ristretto', 'Drip', 'Pour Over', 'Espresso'];
+    for (var i = 0; i < coffee.length; i++) {
+        document.write('<h3>' + coffee[i] + '</h3>');
+    }
+}
+ 
 
 function numberGuessingGame() {
     var correctAnswer = 37;
